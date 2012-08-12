@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Example | Erdeniz's stuff]]></title>
+  <link href="http://ozgunbas.github.com/blog/categories/example/atom.xml" rel="self"/>
+  <link href="http://ozgunbas.github.com/"/>
+  <updated>2012-08-12T18:55:33-04:00</updated>
+  <id>http://ozgunbas.github.com/</id>
+  <author>
+    <name><![CDATA[Erdeniz Bas]]></name>
+    <email><![CDATA[ozgunbas@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World example]]></title>
+    <link href="http://ozgunbas.github.com/blog/2012/08/12/hello-world-example/"/>
+    <updated>2012-08-12T18:44:00-04:00</updated>
+    <id>http://ozgunbas.github.com/blog/2012/08/12/hello-world-example</id>
+    <content type="html"><![CDATA[<p>In this post we will write a simple M code and understand basic syntax. Let's start with the example code:<br /></p>
+
+<script src="https://gist.github.com/2691329.js?file=hello">
+</script>
+
+
+<br />
+
+
+<br />
+
+
+<ul>
+<li>First column in M is reserved for labels (Line 1). Labels are entry references which can be used to transfer execution.&nbsp;</li>
+<li>Line 2 explains itself :)&nbsp;</li>
+<li>Line 3 prints "Hello world" string to the screen and breaks the line. '!' character does the line breaking part. <i>write</i>&nbsp;can take multiple strings&nbsp;separated by a comma. Notice comma is not a string&nbsp;concatenation operator.&nbsp;&nbsp;</li>
+<li>Line 4 returns the execution to its caller. In this case <i>quit</i>&nbsp;is not necessary because we are already at the end of our code. However, it is a good practice to add it at the end of every section. If we decide to add more code later and forget to add <i>quit</i>. Execution will continue to the next command in order without jumping or quitting (may not be what we want).</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

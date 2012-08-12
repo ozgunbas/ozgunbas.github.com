@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Erdeniz's stuff]]></title>
-  <link href="http://ozgunbas.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: overview | Erdeniz's stuff]]></title>
+  <link href="http://ozgunbas.github.com/blog/categories/overview/atom.xml" rel="self"/>
   <link href="http://ozgunbas.github.com/"/>
   <updated>2012-08-12T18:55:33-04:00</updated>
   <id>http://ozgunbas.github.com/</id>
@@ -18,7 +18,7 @@
     <link href="http://ozgunbas.github.com/blog/2012/08/12/hello-world-example/"/>
     <updated>2012-08-12T18:44:00-04:00</updated>
     <id>http://ozgunbas.github.com/blog/2012/08/12/hello-world-example</id>
-    <content type="html"><![CDATA[<p>In this post we will write a simple M code and understand basic syntax. Let&#8217;s start with the example code:<br /></p>
+    <content type="html"><![CDATA[<p>In this post we will write a simple M code and understand basic syntax. Let's start with the example code:<br /></p>
 
 <script src="https://gist.github.com/2691329.js?file=hello">
 </script>
@@ -33,7 +33,7 @@
 <ul>
 <li>First column in M is reserved for labels (Line 1). Labels are entry references which can be used to transfer execution.&nbsp;</li>
 <li>Line 2 explains itself :)&nbsp;</li>
-<li>Line 3 prints &#8220;Hello world&#8221; string to the screen and breaks the line. &#8216;!&#8217; character does the line breaking part. <i>write</i>&nbsp;can take multiple strings&nbsp;separated by a comma. Notice comma is not a string&nbsp;concatenation operator.&nbsp;&nbsp;</li>
+<li>Line 3 prints "Hello world" string to the screen and breaks the line. '!' character does the line breaking part. <i>write</i>&nbsp;can take multiple strings&nbsp;separated by a comma. Notice comma is not a string&nbsp;concatenation operator.&nbsp;&nbsp;</li>
 <li>Line 4 returns the execution to its caller. In this case <i>quit</i>&nbsp;is not necessary because we are already at the end of our code. However, it is a good practice to add it at the end of every section. If we decide to add more code later and forget to add <i>quit</i>. Execution will continue to the next command in order without jumping or quitting (may not be what we want).</li>
 </ul>
 
@@ -49,7 +49,7 @@
 What is it?</h3>
 
 
-<p>GT.M is an open-source implementation of M (a.k.a. <a href="http://en.wikipedia.org/wiki/MUMPS" target="_blank">MUMPS</a>) language. M is a hierarchical, multi-dimensional database. Unlike SQL, data is not conceptually stored in &#8220;tables&#8221; so it gives a higher flexibility to programmers who have varying-length &#8220;rows&#8221;. Programmers have full control and higher understanding of how data is represented in the memory so they can optimize data structure for faster data access.&nbsp;It does not require predefined types associated with each row and column. Types are dynamically converted from one to another depending on the usage. GT.M is <a href="http://sourceforge.net/projects/fis-gtm/" target="_blank">open source</a>&nbsp;and free on Linux. Other platforms (AIX, Solaris, TruUnix, HP-UX) are supported, but are not free.<br /></p>
+<p>GT.M is an open-source implementation of M (a.k.a. <a href="http://en.wikipedia.org/wiki/MUMPS" target="_blank">MUMPS</a>) language. M is a hierarchical, multi-dimensional database. Unlike SQL, data is not conceptually stored in "tables" so it gives a higher flexibility to programmers who have varying-length "rows". Programmers have full control and higher understanding of how data is represented in the memory so they can optimize data structure for faster data access.&nbsp;It does not require predefined types associated with each row and column. Types are dynamically converted from one to another depending on the usage. GT.M is <a href="http://sourceforge.net/projects/fis-gtm/" target="_blank">open source</a>&nbsp;and free on Linux. Other platforms (AIX, Solaris, TruUnix, HP-UX) are supported, but are not free.<br /></p>
 
 <div>
 <br />
@@ -58,7 +58,7 @@ Who uses it?</h3>
 </div>
 
 
-<p>GT.M is currently used by major hospitals and banks. It is capable of handling massive concurrent transactions (10K or more). For this reason, it is ideal for programmers who does not want to compromise speed,&nbsp;and interested in crafting systems that goes beyond &#8220;tables&#8221; and rows.<br /></p>
+<p>GT.M is currently used by major hospitals and banks. It is capable of handling massive concurrent transactions (10K or more). For this reason, it is ideal for programmers who does not want to compromise speed,&nbsp;and interested in crafting systems that goes beyond "tables" and rows.<br /></p>
 
 <br />
 
@@ -67,7 +67,7 @@ Who uses it?</h3>
 Is it reliable?</h3>
 
 
-<p>GT.M supports ACID (Atomic, consistent, &nbsp;transactions, isolated, durable) transaction processing that most of the database engines provide today. It is as easy as putting your critical updates between &#8220;TStart&#8221; and TCommit keywords :)<br /></p>
+<p>GT.M supports ACID (Atomic, consistent, &nbsp;transactions, isolated, durable) transaction processing that most of the database engines provide today. It is as easy as putting your critical updates between "TStart" and TCommit keywords :)<br /></p>
 
 <br />
 
@@ -104,7 +104,7 @@ How do I test it?</h3>
 <p>If you want to learn how to set up your installation:<br /></p>
 
 <ul>
-<li>Take a look at <a href="http://tinco.pair.com/bhaskar/gtm/doc/books/ao/UNIX_manual/index.html" target="_blank">GT.M administrator&#8217;s manual</a>&nbsp;or</li>
+<li>Take a look at <a href="http://tinco.pair.com/bhaskar/gtm/doc/books/ao/UNIX_manual/index.html" target="_blank">GT.M administrator's manual</a>&nbsp;or</li>
 <li>Read this sweet blog post by <a href="http://opensource.com/health/12/3/join-m-revolution%E2%80%94get-your-tools" target="_blank">Luis Ibanez</a>.</li>
 </ul>
 
@@ -119,17 +119,6 @@ How do I test it?</h3>
 
 <br />
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[First Post]]></title>
-    <link href="http://ozgunbas.github.com/blog/2012/08/12/first-post/"/>
-    <updated>2012-08-12T14:02:00-04:00</updated>
-    <id>http://ozgunbas.github.com/blog/2012/08/12/first-post</id>
-    <content type="html"><![CDATA[<p>Hello World! Testing, testing&#8230;</p>
-
-<p>It&#8217;s been a long time since I haven&#8217;t made a new post to my former <a href="http://gtmprogramming.blogspot.com/">blog</a>. That&#8217;s because it is so much pain to embed code into blogspot. I hope octopress makes this easy. I&#8217;ll port my older posts from there to here, and see what I can do with my newer posts&#8217; code examples. Stay tuned!</p>
 ]]></content>
   </entry>
   

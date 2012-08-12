@@ -5,13 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - Erdeniz's stuff</title>
+  <title>Hello World example - Erdeniz's stuff</title>
   <meta name="author" content="Erdeniz Bas">
 
   
-  <meta name="description" content="Blog Archive 2012 Hello World example
-Aug 12 2012 posted in Example, GT.M, overview Let&#8217;s do it! GT.M Overview
-Aug 12 2012 posted in GT.M, &hellip;">
+  <meta name="description" content="In this post we will write a simple M code and understand basic syntax. Let&#8217;s start with the example code: First column in M is reserved for &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -20,7 +18,7 @@ Aug 12 2012 posted in GT.M, &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://ozgunbas.github.com/blog/archives/">
+  <link rel="canonical" href="http://ozgunbas.github.com/blog/2012/08/12/hello-world-example/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -65,63 +63,102 @@ Aug 12 2012 posted in GT.M, &hellip;">
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    
+      <h1 class="entry-title">Hello World Example</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-12T18:44:00-04:00" pubdate data-updated="true">Aug 12<span>th</span>, 2012</time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives">
 
 
+<div class="entry-content"><p>In this post we will write a simple M code and understand basic syntax. Let&#8217;s start with the example code:<br /></p>
 
-  
-  <h2>2012</h2>
-
-<article>
-  
-<h1><a href="/blog/2012/08/12/hello-world-example/">Hello World example</a></h1>
-<time datetime="2012-08-12T18:44:00-04:00" pubdate><span class='month'>Aug</span> <span class='day'>12</span> <span class='year'>2012</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/example/'>Example</a>, <a class='category' href='/blog/categories/gt-m/'>GT.M</a>, <a class='category' href='/blog/categories/overview/'>overview</a></span>
-</footer>
+<script src="https://gist.github.com/2691329.js?file=hello">
+</script>
 
 
-</article>
+<br />
 
 
-
-<article>
-  
-<h1><a href="/blog/2012/08/12/lets-do-it-gt-dot-m-overview/">Let&#8217;s do it! GT.M Overview</a></h1>
-<time datetime="2012-08-12T18:40:00-04:00" pubdate><span class='month'>Aug</span> <span class='day'>12</span> <span class='year'>2012</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/gt-m/'>GT.M</a>, <a class='category' href='/blog/categories/installation/'>installation</a>, <a class='category' href='/blog/categories/introduction/'>introduction</a>, <a class='category' href='/blog/categories/overview/'>overview</a></span>
-</footer>
+<br />
 
 
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2012/08/12/first-post/">First Post</a></h1>
-<time datetime="2012-08-12T14:02:00-04:00" pubdate><span class='month'>Aug</span> <span class='day'>12</span> <span class='year'>2012</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/test/'>test</a></span>
-</footer>
-
-
-</article>
+<ul>
+<li>First column in M is reserved for labels (Line 1). Labels are entry references which can be used to transfer execution.&nbsp;</li>
+<li>Line 2 explains itself :)&nbsp;</li>
+<li>Line 3 prints &#8220;Hello world&#8221; string to the screen and breaks the line. &#8216;!&#8217; character does the line breaking part. <i>write</i>&nbsp;can take multiple strings&nbsp;separated by a comma. Notice comma is not a string&nbsp;concatenation operator.&nbsp;&nbsp;</li>
+<li>Line 4 returns the execution to its caller. In this case <i>quit</i>&nbsp;is not necessary because we are already at the end of our code. However, it is a good practice to add it at the end of every section. If we decide to add more code later and forget to add <i>quit</i>. Execution will continue to the next command in order without jumping or quitting (may not be what we want).</li>
+</ul>
 
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Erdeniz Bas</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-12T18:44:00-04:00" pubdate data-updated="true">Aug 12<span>th</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/example/'>Example</a>, <a class='category' href='/blog/categories/gt-m/'>GT.M</a>, <a class='category' href='/blog/categories/overview/'>overview</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://ozgunbas.github.com/blog/2012/08/12/hello-world-example/" data-via="" data-counturl="http://ozgunbas.github.com/blog/2012/08/12/hello-world-example/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/08/12/lets-do-it-gt-dot-m-overview/" title="Previous Post: Let's do it! GT.M Overview">&laquo; Let's do it! GT.M Overview</a>
+      
+      
+    </p>
+  </footer>
 </article>
 
 </div>

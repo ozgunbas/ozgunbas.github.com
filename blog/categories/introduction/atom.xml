@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: introduction | Erdeniz's stuff]]></title>
+  <link href="http://ozgunbas.github.com/blog/categories/introduction/atom.xml" rel="self"/>
+  <link href="http://ozgunbas.github.com/"/>
+  <updated>2012-08-12T18:55:33-04:00</updated>
+  <id>http://ozgunbas.github.com/</id>
+  <author>
+    <name><![CDATA[Erdeniz Bas]]></name>
+    <email><![CDATA[ozgunbas@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Let's do it! GT.M Overview]]></title>
+    <link href="http://ozgunbas.github.com/blog/2012/08/12/lets-do-it-gt-dot-m-overview/"/>
+    <updated>2012-08-12T18:40:00-04:00</updated>
+    <id>http://ozgunbas.github.com/blog/2012/08/12/lets-do-it-gt-dot-m-overview</id>
+    <content type="html"><![CDATA[<h3>
+What is it?</h3>
+
+
+<p>GT.M is an open-source implementation of M (a.k.a. <a href="http://en.wikipedia.org/wiki/MUMPS" target="_blank">MUMPS</a>) language. M is a hierarchical, multi-dimensional database. Unlike SQL, data is not conceptually stored in "tables" so it gives a higher flexibility to programmers who have varying-length "rows". Programmers have full control and higher understanding of how data is represented in the memory so they can optimize data structure for faster data access.&nbsp;It does not require predefined types associated with each row and column. Types are dynamically converted from one to another depending on the usage. GT.M is <a href="http://sourceforge.net/projects/fis-gtm/" target="_blank">open source</a>&nbsp;and free on Linux. Other platforms (AIX, Solaris, TruUnix, HP-UX) are supported, but are not free.<br /></p>
+
+<div>
+<br />
+<h3>
+Who uses it?</h3>
+</div>
+
+
+<p>GT.M is currently used by major hospitals and banks. It is capable of handling massive concurrent transactions (10K or more). For this reason, it is ideal for programmers who does not want to compromise speed,&nbsp;and interested in crafting systems that goes beyond "tables" and rows.<br /></p>
+
+<br />
+
+
+<h3>
+Is it reliable?</h3>
+
+
+<p>GT.M supports ACID (Atomic, consistent, &nbsp;transactions, isolated, durable) transaction processing that most of the database engines provide today. It is as easy as putting your critical updates between "TStart" and TCommit keywords :)<br /></p>
+
+<br />
+
+
+<p>Another important feature GT.M also supports is replication, which is a disaster recovery&nbsp;measure&nbsp;to support&nbsp;business&nbsp;continuity. It is achieved by having two sites where the primary site is monitored by the secondary site. The events on the primary site are replicated by the secondary site. If the primary site goes down, the secondary site automatically handles transaction in the matter of seconds. That will buy system administrators some time to fix the problem without any disruptions in service.<br /></p>
+
+<br />
+
+
+<h3>
+Is it secure?</h3>
+
+
+<div>
+GT.M supports encryption using GPG.</div>
+
+
+<br />
+
+
+<h3>
+Is it portable?</h3>
+
+
+<p>GT.M complies MUMPS standards determined by MUMPS standards committee. This means that code developed in GT.M is expected to work on any standard MUMPS&nbsp;compliant&nbsp;implementation.<br /></p>
+
+<br />
+
+
+<h3>
+How do I test it?</h3>
+
+
+<p>If you want to learn how to set up your installation:<br /></p>
+
+<ul>
+<li>Take a look at <a href="http://tinco.pair.com/bhaskar/gtm/doc/books/ao/UNIX_manual/index.html" target="_blank">GT.M administrator's manual</a>&nbsp;or</li>
+<li>Read this sweet blog post by <a href="http://opensource.com/health/12/3/join-m-revolution%E2%80%94get-your-tools" target="_blank">Luis Ibanez</a>.</li>
+</ul>
+
+
+<br />
+
+
+<br />
+
+
+<p>In the following posts, I will give some interesting code examples with their explanations, and introduce some useful features in detail.<br /></p>
+
+<br />
+
+]]></content>
+  </entry>
+  
+</feed>
