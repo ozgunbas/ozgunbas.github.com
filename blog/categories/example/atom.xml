@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Example | Erdeniz's stuff]]></title>
+  <title><![CDATA[Category: Example | Messing with GT.M]]></title>
   <link href="http://ozgunbas.github.com/blog/categories/example/atom.xml" rel="self"/>
   <link href="http://ozgunbas.github.com/"/>
-  <updated>2012-08-12T18:55:33-04:00</updated>
+  <updated>2012-08-12T18:58:27-04:00</updated>
   <id>http://ozgunbas.github.com/</id>
   <author>
     <name><![CDATA[Erdeniz Bas]]></name>
